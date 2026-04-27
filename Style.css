@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background: url("./image/image/download\ \(1\).jpg"); /* chanje non imaj la pou evite pwoblèm */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border: 2.5px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(25px);
+    padding: 25px;
+    width: 420px;
+    border-radius: 20px;
+}
+
+
+section h1 {
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.input-box {
+    width: 100%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 15px;
+    border-radius:40px;
+    outline: none;
+    background-color: transparent;
+    border: 2.3px solid rgba(255, 255, 255, 0.2);
+    color: aliceblue;
+    padding-right: 40px;
+}
+
+.input-box input::placeholder {
+    color: aliceblue;
+}
+
+.input-box I{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: aliceblue;
+}
+
+
+.remember-forget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+    color: aliceblue;
+}
+
+.remember-forget a ,.register-link a {
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+.remember-forget a:hover,.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* BUTTON */
+.Login-btn {
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.Login-btn:hover {
+    background-color: transparent;
+    border: 2.5px solid rgba(255, 255, 255, 0.2);
+    color: aliceblue;
+}
+.register-link {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-link a {
+    text-decoration: none;
+}

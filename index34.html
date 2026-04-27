@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--titre de la page-->
+    <title>Page html</title>
+    <!-- icone de L'onglet -->
+    <link rel="shortcut icon" href="./image/image/logo html.jpg" />
+  </head>
+  <body>
+    <nav>
+      <!-- Ul= unnordered List -->
+      <ul>
+        <li>Accueil</li>
+        <li>Boutique</li>
+        <li><a href="#from">Formulaire</a></li>
+      </ul>
+    </nav>
+    <header>
+      <!-- une seule h1 par page -->
+      <h1>ceci est le titre principale</h1>
+      <p>
+        Texte classique <em>Texte en italique</em>
+        <strong>Texte en gras</strong>
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit deserunt
+        eligendi optio nemo, deleniti ducimus dolores? Adipisci placeat atque
+        iure, quam eum consequuntur, vero provident tempora facere dolore, iusto
+        mollitia!30
+      </p>
+    </header>
+    <main>
+      <section>
+        <!-- Ol= odered List -->
+        <h2>Odered List</h2>
+        <ol>
+          <li>Ceci est une</li>
+          <li>List dans</li>
+          <li>L'ordre</li>
+        </ol>
+      </section>
+      <section>
+        <h3>image en Html</h3>
+        <img
+          src="./image/image/download (1).jpg"
+          height="200"
+          alt="section image"
+        />
+        <!-- l'ALT de l'image c'est pour l'accessibiite -->
+        <div>
+          <h4>Tableaux</h4>
+          <table
+            border="1"
+            cellpadding="14"
+            cellspacing="4"
+            style="text-align: center"
+          >
+            <!-- thead c'est pour l'entete du Tableaux -->
+            <thead>
+              <tr>
+                <th>col 1</th>
+                <th>col 1</th>
+                <th>col 1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2">Cel 1</td>
+                <td>Cel 2</td>
+                <td>Cel 3</td>
+              </tr>
+              <tr>
+                <td colspan="2">Cel 1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h5><span>&#8594</span>Les liens</h5>
+          <a href="https://htmlcheatsheet.com" target="_blank">HTML cheat sheet</a>
+        </div>
+        <div>
+          <h6> <span>&#128190;</span>Les videos</h6>
+            <video src="./image/image/barcelone.mp4 " muted autoplay loop height="250"></video>
+        </div>
+      </section>
+      <section id="from">
+        <h2>Les Formulaires</h2>
+        <form action="">
+          <label for="name">Nom</label>
+          <input type="text" placeholder="Entrer votre nom" id="name">
+          <br>
+          
+          <label for="age">Entrer Votre Age</label>
+          <input type="number" value="18" id="age">
+          <br>
+          <label for="gender">Genre</label>
+           <select id="gender">
+             <option value="Homme">Homme</option>
+             <option value="Femme">Femme</option>
+             <option selected="selected" value="Autre">Autre</option>
+           </select>
+          
+            <div>
+           <input checked type="radio" name="type" id="human">
+           <label for="human">Humain</label>
+               <input type="radio" name="type" id="dog">
+           <label for="dog">Chien</label>
+               <input type="radio" name="type" id="cat">
+           <label for="cat">Chat</label>
+         </div>
+          <textarea 
+           placeholder="Votre message..."
+           cols="20"
+           rows="5"
+           ></textarea>
+           <br>
+           <input type="checkbox" id="gvn">
+           <label for="gvn">Accepter les conditions générales</label>
+           <br>
+           <input type="submit" value="Valider">
+           <div>
+            <a href="freycinetbathelmy6@gmail.com">Contactez moi !</a>
+          </div>
+
+
+
+
+        </form> 
+      </section>
+    </main>
+    <footer>
+
+      
+    </footer>
+  </body>
+</html>
